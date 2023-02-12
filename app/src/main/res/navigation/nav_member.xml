@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_member"
+    app:startDestination="@id/memberFragment">
+
+    <fragment
+        android:id="@+id/memberFragment"
+        android:name="com.example.myfirstapplication.fragment.MemberFragment"
+        android:label="fragment_member"
+        tools:layout="@layout/fragment_member" >
+        <action
+            android:id="@+id/action_memberFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+        <argument
+            android:name="hetekaId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.myfirstapplication.fragment.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_memberFragment"
+            app:destination="@id/memberFragment" />
+        <argument
+            android:name="hetekaId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

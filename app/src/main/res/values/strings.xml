@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My First Application</string>
+    // main activity
+    <string name="btnGo">Go!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    // list item
+    <string name="lastName">last name</string>
+    <string name="firstName">first name</string>
+    <string name="partyNamePre">Party : </string>
+    <string name="partyName">partyName</string>
+    <string name="hetekaIdPre">HetekaId : </string>
+    <string name="hetekaId">hetekaId</string>
+    <string name="seatNumberPre">Seat Number : </string>
+    <string name="seatNumber">seatNumber</string>
+    <string name="ministerPre">Minister : </string>
+    <string name="minister">minister</string>
+    // Info fragment
+    <string name="bornYearPre">Born Year : </string>
+    <string name="bornYear">bornYear</string>
+    <string name="constituencyPre">Constituency : </string>
+    <string name="constituency">constituencyPre</string>
+    <string name="twitterPre">Twitter : </string>
+    <string name="twitter">twitter</string>
+    <string name="btnLike">Like</string>
+    <string name="btnNext">Next</string>
+    // Second fragment
+    <string name="btnAdd">Add</string>
+    <string name="btnReset">Reset</string>
+</resources>
